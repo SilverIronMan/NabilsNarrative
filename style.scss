@@ -22,7 +22,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    @media (min-width: 38em) {
+    @media (min-width: 50em) {
         overflow: hidden;
     }
 }
@@ -32,7 +32,7 @@ html {
     font-size: 18px;
     font-weight: 300;
     line-height: 1.6;
-    @media (min-width: 38em) {
+    @media (min-width: 50em) {
         font-size: 20px;
     }
 }
@@ -238,10 +238,9 @@ pre code {
 }
 
 .fa {
-    margin-left: -2vw;
     font-size: 1.5em;
     margin-right: 6vw;
-    @media (min-width: 38em) {
+    @media (min-width: 50em) {
         font-size: 2vw;
         margin-left: 0;
         margin-right: 1.4vw;
@@ -297,8 +296,8 @@ tbody tr:nth-child(odd) th {
         color: #EC407A;
         &:hover,
         &:focus {
-            color: #fff;
-            border-color: #fff;
+            color: whitesmoke;
+            border-color: whitesmoke;
             background: #EC407A;
         }
     }
@@ -307,36 +306,36 @@ tbody tr:nth-child(odd) th {
 .profile {
     padding: 2%;
     background-repeat:no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-position:center;
     .img-circle {
         height: auto;
-        width: 20%;
+        min-width: 15%;
         border-radius: 50%;
         display: block;
-        margin: 1rem 1rem 1rem;
-        display: inline;
+        margin: 1rem auto;
     }
     h3 {
         height: auto;
-        margin-right: 4vw;
+        text-align: center;
         margin-top: 10vw;
-        width: 50%;
-        float: right;
-        color: #FFF;
+        color: whitesmoke;
     }
     p {
         height: auto;
         width: 100%;
         text-align: center;
-        color: #BDBDBD;
+        color: whitesmoke;
+        font-size: 1.1em
     }
     .social {
-        margin-left: 25vw;
+        display: block;
+        margin-left: 0;
         height: auto;
         width: 100%;
+        text-align: center;
     }
-    @media (min-width: 38em) {
+    @media (min-width: 50em) {
         position: fixed;
         width: 20%;
         height: 100%;
@@ -353,7 +352,6 @@ tbody tr:nth-child(odd) th {
         }
         p {
             margin-top: -1.3em;
-            font-size: 16px;
             text-align: center;
             letter-spacing: 2px;
         }
@@ -366,7 +364,6 @@ tbody tr:nth-child(odd) th {
         .social {
             position: absolute;
             bottom: 0;
-            margin-left: 2vw;
             a {
                 padding: 0;
                 margin-left: 0;
@@ -423,7 +420,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .highlight .hll {
-    background-color: #ffffcc
+    background-color: whitesmoke;
 }
 
 .highlight .c {

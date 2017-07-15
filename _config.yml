@@ -1,18 +1,13 @@
-name:               "Ink"
-description:        "A minimalistic jekyll theme for humans"
+name:               "Nabil's Narrative"
+description:        "Some of my Programming Projects"
 
 url:                ""
-author:             "thinker3197"
-email:              "jhondoe@abc.com"
-gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
-twitter:            "jhondoe"
-email:              "jhondoe@abc.com"
-github:             "jhondoe"
-pinterest:          "jhondoe"
-linkedin:           "jhondoe"
-facebook:           "jhondoe"
-
-disqus_shortname:   "thinker3197"
+author:             "Nabil Ahlhauser"
+email:              "Nabil.Ahlhauser@my.maryvillecollege.edu"
+gravatar_hash:      "a70796a247d24b369607ceabf5ce0baa"
+github:             "SilverIronMan"
+linkedin:           "nabil-ahlhauser"
+facebook:           "silver9244"
 
 background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
@@ -25,10 +20,6 @@ permalink:          /:year/:month/:day/:title/
 markdown:           kramdown
 
 nav:
-  - name:           "About"
-    href:           "/about"
-  - name:           "Download"
-    href:           "/releases"
 
 sass:
   style:            :compressed
