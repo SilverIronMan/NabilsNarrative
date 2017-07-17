@@ -22,9 +22,6 @@ html,
 body {
     margin: 0;
     padding: 0;
-    @media (min-width: 50em) {
-        overflow: hidden;
-    }
 }
 
 html {
@@ -45,7 +42,7 @@ body {
 }
 
 a {
-    color: #515151;
+    color: #999;
     text-decoration: none;
     transition: all 0.3s;
     &:hover,
@@ -240,7 +237,6 @@ pre code {
 .fa {
     font-size: 1.5em;
     margin-right: 6vw;
-    color: whitesmoke;
     @media (min-width: 50em) {
         font-size: 2vw;
         margin-left: 0;
@@ -379,12 +375,11 @@ tbody tr:nth-child(odd) th {
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
-    @media (min-width: 38rem) {
+    @media (min-width: 50rem) {
         margin-top: 0;
         margin-left: 20%;
         padding: 3%;
         min-width: 80%;
-        height: 800px;
     }
 }
 
@@ -414,11 +409,57 @@ tbody tr:nth-child(odd) th {
     }
 }
 
-.post-list {
-    h2 {
-        margin-top: 1.3rem;
-    }
+/* Box Display for Posts */
+.content {
+  text-align: center;
 }
+
+.post-list {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  background: #f1192e;
+  color: #ffffff;
+  height: 360px;
+  margin: 10px;
+}
+
+.post-list .front,
+.post-list .back {
+  padding: 20px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+}
+
+.post-list:hover .front {
+  opacity: 0;
+}
+
+.post-list:hover .back {
+  opacity: 1;
+}
+
+.post-list .back {
+  opacity: 0;
+  width: 100%
+}
+
+.post-list .back p {
+  overflow: hidden;
+}
+
+.post-list .post-image {
+  height: 320px;
+  width: 280px;
+}
+
+/* Hightlight */
 
 .highlight .hll {
     background-color: whitesmoke;
