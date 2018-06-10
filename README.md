@@ -1,4 +1,6 @@
-# Nabil's Narrative
+I wanted a personal site to showcase the fact that I am a web developer.
 
-This is a site that I created to show off a little bit of my web development skills in hopes
-of getting hired.
+
+# TODO:
+Everything needs to be updated to match my projects.
+Images need to be updated

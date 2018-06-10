@@ -1,37 +1,40 @@
-name:               "Nabil's Narrative"
-description:        "My Programming Projects"
+# Site Settings
+title: Nabil's Narrative
+email: nabila9@gmail.com
+description: I am a web developer
+baseurl: "/nabilsnarrative" # the subpath of your site, e.g. /blog
+url: "https://www.rossener.com" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
 
-url:                ""
-author:             "Nabil Ahlhauser"
-email:              "Nabil.Ahlhauser@my.maryvillecollege.edu"
-gravatar_hash:      "a70796a247d24b369607ceabf5ce0baa"
-github:             "SilverIronMan"
-linkedin:           "nabil-ahlhauser"
-facebook:           "silver9244"
-codepen:            "NabilA"
+# User Settings
+username: Nabil Ahlhauser
+user_description: I am a web developer.
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
-baseurl:            ""
-permalink:          /:year/:month/:day/:title/
+# Social Media
+# Remove the item if you don't need it
+github_username: SilverIronMan
+facebook_username: silver9244
+linkedin_username: nabil-ahlhauser
 
-markdown:           kramdown
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
 
-nav:
+# Plugins
+gems:
+  - jemoji
 
-sass:
-  style:            :compressed
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
 
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
