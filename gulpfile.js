@@ -44,9 +44,9 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 });
 
 /**
- * Stylus task
+ * Style task
  */
-gulp.task('stylus', function(){
+gulp.task('css', function(){
     gulp.src('src/styl/main.styl')
     .pipe(plumber())
     .pipe(stylus({
@@ -84,7 +84,7 @@ gulp.task('imagemin', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-  gulp.watch('src/styl/**/*.styl', ['stylus']);
+  gulp.watch('src/styl/**/*.styl', ['css']);
   gulp.watch('src/js/**/*.js', ['js']);
   gulp.watch(['**/*.html','index.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
@@ -93,4 +93,4 @@ gulp.task('watch', function () {
  * Default task, running just `gulp` will compile the stylus,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['js', 'stylus', 'browser-sync', 'watch']);
+gulp.task('default', ['js', 'css', 'browser-sync', 'watch']);
