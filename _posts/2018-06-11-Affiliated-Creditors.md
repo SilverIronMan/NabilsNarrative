@@ -4,9 +4,9 @@ title: "Affiliated Creditors, Inc."
 date: 2018-06-11
 image: 'http://affiliatedcreditors.com/wp-content/uploads/2018/02/aci-logo-270.png'
 description: Affiliated Creditors Project
-category: 'css'
+category: 'Project'
 tags:
-- Frontend
+- Front-end
 introduction: Affiliated Creditors Project
 ---
 

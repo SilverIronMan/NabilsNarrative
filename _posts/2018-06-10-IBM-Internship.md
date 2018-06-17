@@ -4,11 +4,11 @@ title: "IBM Internship"
 date: 2018-06-10
 image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/800px-IBM_logo.svg.png'
 description: My summer internship with IBM
-category: 'css'
+category: 'Front-end'
 tags:
 - Internship
 - IBM
-- Frontend
+- Front-end
 introduction: My summer internship with IBM
 ---
 
