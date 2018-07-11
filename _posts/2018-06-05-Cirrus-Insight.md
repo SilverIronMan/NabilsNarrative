@@ -4,10 +4,10 @@ title: "Cirrus Insight Internship"
 date: 2018-06-10
 image: 'http://salestechawards.com/wp-content/uploads/2017/03/899826.png'
 description: Cirrus Insight
-category: 'JavaScript'
+category: 'Internship'
 tags:
-- Internship
 - Front-end
+- JavaScript
 introduction: Cirrus Insight
 ---
 
